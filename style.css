@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #EEEEEE;
+}
+
+header {
+    background-color: #1D1616;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: none;
+    padding: 5% 0;
+}
+
+header > h1 {
+    margin-bottom: 20px;
+    font-size: clamp(30px, 8vw, 100px); /* Użycie clamp() do elastycznego rozmiaru czcionki */
+}
+
+header > p {
+    font-size: clamp(16px, 2.5vw, 20px); /* Użycie clamp() dla responsywnego rozmiaru czcionki */
+    color: #EEEEEE;
+}
+
+main > section {
+    background-color: #1D1616;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main > section > img {
+    width: 55%;
+    margin: 25px auto;
+}
+
+main > section > p {
+    margin: auto;
+}
+
+.img p {
+    max-width: 60%;
+}
+
+.img > p > a {
+    text-decoration: none;
+}
+
+.main > * {
+    margin: 15px auto;
+}
+
+.main > h3 {
+    margin: 70px auto;
+}
+
+.main > ul {
+    list-style: none;
+    width: 60%;
+    margin: auto;
+}
+
+.main > ul > li {
+    margin: 25px;
+    font-size: 15px;
+}
+
+.main > ul > li > a {
+    text-decoration: none;
+}
+
+.quote {
+    width: 45%;
+    margin: 45px auto;
+}
+
+.quote > p {
+    margin: 5px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 24px;
+    width: 100%;
+    padding: 10px 0;
+}
+
+footer a {
+    color: #A64D79;
+}
+
+footer p {
+    max-width: 80%;
+    margin: 10px;
+    text-align: center;
+}
+
+.red-text {
+    color: red;
+}
+
+.small {
+    font-size: 15px;
+}
